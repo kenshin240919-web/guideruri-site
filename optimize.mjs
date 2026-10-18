@@ -32,3 +32,4 @@ function visit(directory) {
 visit(root);
 console.log(`Optimized ${count} HTML pages.`);
 await import('./generate-rss.mjs');
+await import('./apply-adsense.mjs');

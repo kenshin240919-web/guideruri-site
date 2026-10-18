@@ -44,3 +44,4 @@ write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http:/
 const manifest=JSON.parse(readFileSync('.openai/hosting.json','utf8'));manifest.static={directory:'dist'};writeFileSync('.openai/hosting.json',JSON.stringify(manifest,null,2)+'\n');
 console.log(`Generated ${paths.length} pages and sitemap.`);
 await import('./generate-rss.mjs');
+await import('./apply-adsense.mjs');
