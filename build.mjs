@@ -45,3 +45,4 @@ const manifest=JSON.parse(readFileSync('.openai/hosting.json','utf8'));manifest.
 console.log(`Generated ${paths.length} pages and sitemap.`);
 await import('./generate-rss.mjs');
 await import('./apply-adsense.mjs');
+write('ads.txt', 'google.com, pub-1265732107215441, DIRECT, f08c47fec0942fa0\n');
