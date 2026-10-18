@@ -43,3 +43,4 @@ const paths=['/','/about/','/privacy/','/contact/','/tools/photo/',...categories
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+paths.map(p=>`<url><loc>${origin}${p}</loc><lastmod>2026-10-18</lastmod></url>`).join('')+'</urlset>');
 const manifest=JSON.parse(readFileSync('.openai/hosting.json','utf8'));manifest.static={directory:'dist'};writeFileSync('.openai/hosting.json',JSON.stringify(manifest,null,2)+'\n');
 console.log(`Generated ${paths.length} pages and sitemap.`);
+await import('./generate-rss.mjs');
