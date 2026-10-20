@@ -7,6 +7,20 @@
 <language>ko</language>
 <atom:link href="https://guideruri.com/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>방금 복사한 내용이 사라졌다면? 윈도우 복사 기록 꺼내 쓰기</title>
+<link>https://guideruri.com/guides/windows-clipboard-history/</link>
+<guid isPermaLink="true">https://guideruri.com/guides/windows-clipboard-history/</guid>
+<description>Ctrl+V로 다른 문장이 붙을 때, Windows+V로 복사 기록을 확인하고 필요한 내용만 골라 쓰는 방법입니다.</description>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>실수로 닫은 크롬 탭, 검색부터 다시 하지 말고 이렇게 여세요</title>
+<link>https://guideruri.com/guides/chrome-reopen-closed-tab/</link>
+<guid isPermaLink="true">https://guideruri.com/guides/chrome-reopen-closed-tab/</guid>
+<description>닫은 탭을 다시 여는 단축키부터 방문 기록 검색까지, 페이지를 찾는 순서와 복구되지 않는 경우를 정리했어요.</description>
+<pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>사진 용량이 너무 클 때, 화질을 지키며 줄이는 순서</title>
 <link>https://guideruri.com/guides/photo-size/</link>
 <guid isPermaLink="true">https://guideruri.com/guides/photo-size/</guid>
