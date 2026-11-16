@@ -20,3 +20,5 @@
 - 공식 도움말(Apple·Google·Microsoft·Samsung)에서 확인한 내용만 쓰고, `sources`에는 실제로 읽은 URL만 넣습니다.
 - 애드센스 코드 `ca-pub-1265732107215441`, `dist/ads.txt`, `dist/CNAME`, `dist/.nojekyll`, 사진 도구(`dist/tools/photo`)는 그대로 둡니다.
 - 유료 API는 쓰지 않습니다.
+- 입문 안내: `start-guides.mjs`에서 글을 순서대로 묶어 `/start/<slug>/` 페이지 4개를 만듭니다(홈과 각 글에서 연결). 새 글이 맞는 단계가 있으면 거기에 추가합니다.
+- 글 구조: 모든 글을 같은 틀로 쓰지 않습니다. 번호 단계형·상황별·질문형·비교형 중 주제에 맞게 고릅니다.
