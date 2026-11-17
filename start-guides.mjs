@@ -29,7 +29,7 @@ export const startGuides = [
     steps: [
       ['화면을 보기 편하게', '글씨와 마우스 화살표가 잘 보여야 나머지 설정도 따라 하기 쉽습니다.', ['windows-text-size', 'windows-mouse-pointer-size']],
       ['자주 쓰는 기능 익히기', '화면 캡처, 복사 기록, 내려받은 파일 찾기, 파일 이름 끝(확장자) 보기, 압축 풀기입니다.', ['windows-screenshot', 'windows-clipboard-history', 'find-downloads', 'show-file-extensions', 'zip-unzip']],
-      ['인터넷 창(크롬) 다루기', '화면이 갑자기 커졌거나, 탭을 실수로 닫았거나, 페이지가 이상하게 보일 때입니다.', ['chrome-zoom', 'chrome-reopen-closed-tab', 'chrome-cache']],
+      ['인터넷 창(크롬) 다루기', '화면이 갑자기 커졌거나, 탭을 실수로 닫았거나, 페이지가 이상하게 보일 때입니다.', ['chrome-zoom', 'chrome-reopen-closed-tab', 'chrome-cache', 'chrome-search-engine-changed']],
       ['컴퓨터가 이상할 때', '켤 때 느리거나, 저장 공간이 부족하거나, 소리·와이파이가 안 될 때 차례로 확인합니다.', ['windows-startup-apps', 'windows-free-up-drive-space', 'windows-no-sound-fix', 'windows-wifi-not-connecting']]
     ]
   },
