@@ -5,7 +5,7 @@ export const startGuides = [
     desc: '스마트폰이 아직 낯선 분이 먼저 바꿔 두면 편한 설정부터, 전화·알림, 안전, 문제가 생겼을 때 볼 글까지 순서대로 묶었습니다.',
     intro: '휴대폰을 새로 장만했거나 아직 손에 익지 않았다면 글자를 키우는 일부터 하세요. 화면이 잘 보여야 다음 설정도 따라 할 수 있습니다. 아이폰과 갤럭시 글이 섞여 있으니 쓰는 휴대폰에 맞는 글만 골라 읽으면 됩니다.',
     steps: [
-      ['먼저 화면을 보기 편하게', '글씨 크기와 화면이 꺼지는 시간만 맞춰도 휴대폰 쓰기가 훨씬 덜 답답해집니다.', ['iphone-text-size', 'android-text-size', 'iphone-autolock-time']],
+      ['먼저 화면을 보기 편하게', '글씨 크기와 화면이 꺼지는 시간만 맞춰도 휴대폰 쓰기가 훨씬 덜 답답해집니다.', ['iphone-text-size', 'android-text-size', 'iphone-autolock-time', 'iphone-dictation-voice-typing']],
       ['전화와 알림을 놓치지 않게', '벨이 안 울리거나 알림이 조용해졌을 때 고장부터 의심하기 전에 확인할 곳입니다.', ['galaxy-ringtone-not-ringing', 'iphone-focus-notifications', 'android-notifications']],
       ['안전하게 쓰기', '모르는 번호, 가짜 바이러스 경고, 낯선 QR 코드처럼 조심해야 할 상황과 위급할 때 대비해 둘 설정입니다.', ['iphone-block-unknown-calls-texts', 'android-chrome-site-alerts', 'iphone-qr-code', 'iphone-medical-id-emergency-contacts']],
       ['문제가 생겼을 때', '휴대폰을 잃어버렸거나, 저장 공간·배터리가 금방 바닥나거나, 휴대폰이 갑자기 화면을 소리 내 읽을 때 차례로 볼 글입니다.', ['android-find-lost-phone', 'iphone-storage-full', 'iphone-battery-drains-fast', 'android-talkback-turn-off']]
