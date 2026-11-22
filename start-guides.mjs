@@ -18,7 +18,7 @@ export const startGuides = [
     steps: [
       ['찍은 사진 손보기', '잘못 자른 사진 되돌리기, 화면 캡처, 사진 속 글자 복사처럼 사진을 다루는 기본입니다.', ['iphone-photo-crop-rotate-revert', 'android-screenshot', 'iphone-live-text-copy']],
       ['보내기 전에 확인하기', '용량, 파일 형식, 사진에 담긴 위치 정보를 보내기 전에 확인합니다.', ['photo-size', 'iphone-heic-to-jpg', 'iphone-photo-remove-location', 'file-formats']],
-      ['컴퓨터로 옮기기', '휴대폰 사진을 PC로 옮길 때 보는 글입니다.', ['quick-share-windows']],
+      ['컴퓨터로 옮기기', '휴대폰 사진을 PC로 옮길 때 보는 글입니다.', ['quick-share-windows', 'iphone-photos-to-windows-pc']],
       ['실수로 지웠을 때', '지운 사진은 바로 사라지지 않습니다. 휴대폰 종류에 맞는 글을 보세요.', ['iphone-recover-deleted-photos', 'galaxy-recover-deleted-photos']]
     ]
   },
