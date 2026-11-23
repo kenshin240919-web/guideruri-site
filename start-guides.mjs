@@ -8,7 +8,7 @@ export const startGuides = [
       ['먼저 화면을 보기 편하게', '글씨 크기와 화면이 꺼지는 시간만 맞춰도 휴대폰 쓰기가 훨씬 덜 답답해집니다.', ['iphone-text-size', 'android-text-size', 'iphone-autolock-time', 'iphone-dictation-voice-typing']],
       ['전화와 알림을 놓치지 않게', '벨이 안 울리거나 알림이 조용해졌을 때 고장부터 의심하기 전에 확인할 곳입니다.', ['galaxy-ringtone-not-ringing', 'iphone-focus-notifications', 'android-notifications']],
       ['안전하게 쓰기', '모르는 번호, 가짜 바이러스 경고, 낯선 QR 코드처럼 조심해야 할 상황과 위급할 때 대비해 둘 설정입니다.', ['iphone-block-unknown-calls-texts', 'android-chrome-site-alerts', 'iphone-qr-code', 'iphone-medical-id-emergency-contacts']],
-      ['문제가 생겼을 때', '휴대폰을 잃어버렸거나, 저장 공간·배터리가 금방 바닥나거나, 휴대폰이 갑자기 화면을 소리 내 읽을 때 차례로 볼 글입니다.', ['android-find-lost-phone', 'iphone-storage-full', 'iphone-battery-drains-fast', 'android-talkback-turn-off']]
+      ['문제가 생겼을 때', '휴대폰을 잃어버렸거나, 저장 공간·배터리가 금방 바닥나거나, 휴대폰이 갑자기 화면을 소리 내 읽을 때 차례로 볼 글입니다.', ['android-find-lost-phone', 'iphone-storage-full', 'galaxy-storage-full', 'iphone-battery-drains-fast', 'android-talkback-turn-off']]
     ]
   },
   {
