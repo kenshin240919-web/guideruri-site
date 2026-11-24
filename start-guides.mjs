@@ -27,7 +27,7 @@ export const startGuides = [
     desc: '윈도우 화면을 보기 편하게 맞추고, 캡처·복사·파일 찾기 같은 자주 쓰는 기능, 크롬 사용법, 컴퓨터가 이상할 때 점검할 곳을 순서대로 묶었습니다.',
     intro: '컴퓨터는 메뉴가 많아서 어디서부터 봐야 할지 막막합니다. 글씨와 마우스 화살표를 먼저 보기 편하게 맞추고, 자주 쓰는 기능을 익힌 뒤, 문제가 생겼을 때 볼 글로 넘어가세요. 윈도우 글은 Windows 11 기준입니다.',
     steps: [
-      ['화면을 보기 편하게', '글씨와 마우스 화살표가 잘 보여야 나머지 설정도 따라 하기 쉽습니다.', ['windows-text-size', 'windows-mouse-pointer-size']],
+      ['화면을 보기 편하게', '글씨와 마우스 화살표가 잘 보여야 나머지 설정도 따라 하기 쉽습니다.', ['windows-text-size', 'windows-mouse-pointer-size', 'windows-screen-sleep-timeout']],
       ['자주 쓰는 기능 익히기', '화면 캡처, 복사 기록, 내려받은 파일 찾기, 파일 이름 끝(확장자) 보기, 압축 풀기입니다.', ['windows-screenshot', 'windows-clipboard-history', 'find-downloads', 'show-file-extensions', 'zip-unzip']],
       ['인터넷 창(크롬) 다루기', '화면이 갑자기 커졌거나, 탭을 실수로 닫았거나, 페이지가 이상하게 보일 때입니다.', ['chrome-zoom', 'chrome-reopen-closed-tab', 'chrome-cache', 'chrome-search-engine-changed']],
       ['컴퓨터가 이상할 때', '켤 때 느리거나, 저장 공간이 부족하거나, 소리·와이파이가 안 될 때 차례로 확인합니다.', ['windows-startup-apps', 'windows-free-up-drive-space', 'windows-no-sound-fix', 'windows-wifi-not-connecting', 'windows-screen-rotated-sideways']]
