@@ -27,5 +27,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+      # ponytail: fixed wait — 2026-11-24 deploy-pages saw 0 artifacts right after upload; poll the API if 30s stops being enough
+      - name: Wait for artifact to be listed
+        run: sleep 30
       - id: deployment
         uses: actions/deploy-pages@v4
