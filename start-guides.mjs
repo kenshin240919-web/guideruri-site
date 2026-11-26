@@ -16,7 +16,7 @@ export const startGuides = [
     desc: '사진을 고치고, 보내기 전에 용량과 형식을 맞추고, 컴퓨터로 옮기고, 실수로 지운 사진을 되살리는 순서를 묶었습니다.',
     intro: '사진은 찍는 것보다 보내고 정리할 때 더 자주 막힙니다. 보내려는데 용량이 크다고 나오거나, 상대방이 사진을 못 연다고 할 때가 대표적입니다. 아래 순서대로 보면 사진을 찍은 뒤 보내기까지 필요한 일을 한 번에 훑을 수 있습니다.',
     steps: [
-      ['찍은 사진 손보기', '잘못 자른 사진 되돌리기, 화면 캡처, 사진 속 글자 복사처럼 사진을 다루는 기본입니다.', ['iphone-photo-crop-rotate-revert', 'android-screenshot', 'iphone-live-text-copy']],
+      ['찍은 사진 손보기', '잘못 자른 사진 되돌리기, 화면 캡처, 사진 속 글자 복사처럼 사진을 다루는 기본입니다.', ['iphone-photo-crop-rotate-revert', 'android-screenshot', 'iphone-live-text-copy', 'iphone-merge-duplicate-photos']],
       ['보내기 전에 확인하기', '용량, 파일 형식, 사진에 담긴 위치 정보를 보내기 전에 확인합니다.', ['photo-size', 'iphone-heic-to-jpg', 'iphone-photo-remove-location', 'file-formats']],
       ['컴퓨터로 옮기기', '휴대폰 사진을 PC로 옮길 때 보는 글입니다.', ['quick-share-windows', 'iphone-photos-to-windows-pc']],
       ['실수로 지웠을 때', '지운 사진은 바로 사라지지 않습니다. 휴대폰 종류에 맞는 글을 보세요.', ['iphone-recover-deleted-photos', 'galaxy-recover-deleted-photos']]
